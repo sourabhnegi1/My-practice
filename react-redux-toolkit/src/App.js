@@ -5,11 +5,13 @@ import Coins from './feactures/coins/Coin'
 import Theme from './feactures/theme/Theme'
 function App() {
   return (
-    <div className="App my-p">
+    <section className="App">
+     <div>
       <Counter />
-      <Coins />
-      <Theme />
-    </div>
+      {/* <Coins /> */}
+      {/* <Theme /> */}
+      </div>
+    </section>
   );
 }
 
