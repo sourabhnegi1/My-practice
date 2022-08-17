@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: red; left: 100px; top: 0px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>animation-direction: alternate-reverse</h1>
+
+<p>Play the animation backwards first, then forwards:</p>
+<div></div>
+
+</body>
+</html>
